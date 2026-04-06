@@ -42,9 +42,9 @@ Repo: https://github.com/kvntynito/P1-3-incident-investigation-casefiles
 ---
 
 ## How the projects connect
-- **P1-1** provides the segmented lab foundation (networks, firewall boundaries, VM layout)
-- **P1-2** uses that lab to centralize endpoint telemetry (WEF + Sysmon)
-- **P1-3** uses that telemetry to build repeatable investigations and detection artifacts
+- **P1-1** provides the creation of a segmented lab (includes networks, firewall boundaries, annd VM layout). This serves as the foundation for P1-2. 
+- **P1-2** uses that lab to centralize endpoint telemetry using WEF and Sysmon within SIEM tools.
+- **P1-3** uses that telemetry to build repeatable investigations and case files.
 
 ## Current Status
-Blueprint phase complete. Evidence (screenshots + implementation notes) will be added as each milestone is implemented in the homelab.
+P1-1 in progress. Evidence (screenshots + implementation notes) will be added as each milestone is implemented in the homelab.
