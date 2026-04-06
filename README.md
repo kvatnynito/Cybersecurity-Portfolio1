@@ -17,7 +17,7 @@ This portfolio uses sample hostnames and internal IP ranges. Public-facing detai
 **Repo:** `P1-1-proxmox-segmentation-lab`  
 **What it is:** A segmented Proxmox and pfSense lab with VM inventory, firewall boundaries, and safe publishing guidelines.  
 **Why it’s included:** This is the foundation for the rest of the portfolio.
-- Key artifacts: architecture diagram, bridges, firewall rules, IP plan, and VM inventory
+- contains: architecture diagram, bridges, firewall rules, IP plan, and VM inventory
 
 Repo: https://github.com/kvntynito/P1-1-proxmox-segmentation-lab
 
