@@ -23,7 +23,7 @@ Repo: https://github.com/kvntynito/P1-1-proxmox-segmentation-lab
 
 ---
 
-### -2) Telemetry Pipeline (WEF + Sysmon → Wazuh / Elastic / Splunk)
+### -2) Telemetry Pipeline (WEF/Sysmon with Wazuh / Elastic / Splunk)
 **Repo:** `P1-2-wef-sysmon-to-wazuh-elastic-splunk`  
 **What it is:** blueprint for centralized Windows telemetry collection and multi-platform validation.  
 **Why it’s included:** builds SOC-style telemetry flow and repeatable validation checks.
