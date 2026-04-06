@@ -1,50 +1,50 @@
-# Cybersecurity Portfolio 1 (P1) — Homelab Build, Telemetry, & Case Files
+# Cybersecurity Portfolio 1 (P1) — Homelab Build, Telemetry, and Case Files
 
 ## Overview
-This portfolio documents a practical security lab environment and the workflows built on top of it:
-- segmented network design (Proxmox + pfSense)
-- centralized Windows telemetry (WEF + Sysmon)
-- investigation-style case files and detection artifacts (Splunk / Elastic / Wazuh)
+This portfolio shows the cybersecurity lab I have built and the work that comes from it. It includes:
+- network segmentation with Proxmox and pfSense
+- centralized Windows logging with WEF and Sysmon
+- investigation-style case files and detection notes using Splunk, Elastic, and Wazuh
 
 ## Sanitization Note
-This portfolio uses representative hostnames/IP ranges and redacts WAN/public IPs, domains/DDNS, VPN details, and secrets. Architecture and workflow remain accurate.
+This portfolio uses sample hostnames and internal IP ranges. Public-facing details such as WAN IPs, domains, DDNS, VPN settings, and secrets are removed or redacted. The overall design and workflow still reflect the real lab.
 
 ---
 
 ## Featured Projects
 
-### -1) Proxmox Segmentation Lab (Foundation)
+### 1) Proxmox Segmentation Lab
 **Repo:** `P1-1-proxmox-segmentation-lab`  
-**What it is:** segmented Proxmox + pfSense blueprint with VM inventory, firewall posture, and safe publishing guidelines.  
-**Why it’s included:** establishes the lab design used by all other P1 projects.
-- Key artifacts: architecture, bridges, firewall policy, IP plan, VM inventory
+**What it is:** A segmented Proxmox and pfSense lab with VM inventory, firewall boundaries, and safe publishing guidelines.  
+**Why it’s included:** This is the foundation for the rest of the portfolio.
+- Key artifacts: architecture diagram, bridges, firewall rules, IP plan, and VM inventory
 
 Repo: https://github.com/kvntynito/P1-1-proxmox-segmentation-lab
 
 ---
 
-### -2) Telemetry Pipeline (WEF/Sysmon with Wazuh / Elastic / Splunk)
+### 2) Telemetry Pipeline
 **Repo:** `P1-2-wef-sysmon-to-wazuh-elastic-splunk`  
-**What it is:** blueprint for centralized Windows telemetry collection and multi-platform validation.  
-**Why it’s included:** builds SOC-style telemetry flow and repeatable validation checks.
+**What it is:** A lab project focused on collecting Windows telemetry and reviewing it across multiple SIEM platforms.  
+**Why it’s included:** It shows how I centralize logs and validate visibility across different tools.
 
 Repo: https://github.com/kvntynito/P1-2-wef-sysmon-to-wazuh-elastic-splunk
 
 ---
 
-### -3) Incident Investigation Case Files
+### 3) Incident Investigation Case Files
 **Repo:** `P1-3-incident-investigation-casefiles`  
-**What it is:** case templates + detections folders (Splunk searches / Elastic queries / Wazuh notes) tied to lab telemetry.  
-**Why it’s included:** documents investigation workflow (timeline, IOCs, pivots) with sanitized evidence.
+**What it is:** A collection of investigation templates, detections, and case notes tied to activity generated in the lab.  
+**Why it’s included:** It shows how I document alerts, review evidence, and build repeatable investigation workflows.
 
 Repo: https://github.com/kvntynito/P1-3-incident-investigation-casefiles
 
 ---
 
-## How the projects connect
-- **P1-1** provides the creation of a segmented lab (includes networks, firewall boundaries, annd VM layout). This serves as the foundation for P1-2. 
-- **P1-2** uses that lab to centralize endpoint telemetry using WEF and Sysmon within SIEM tools.
-- **P1-3** uses that telemetry to build repeatable investigations and case files.
+## How the Projects Connect
+- **P1-1** is the lab foundation. It covers the network layout, firewall boundaries, and VM design.
+- **P1-2** builds on that foundation by centralizing Windows telemetry with WEF and Sysmon.
+- **P1-3** uses that telemetry to document investigations, detections, and case findings.
 
 ## Current Status
-P1-1 in progress. Evidence (screenshots + implementation notes) will be added as each milestone is implemented in the homelab.
+P1-1 is currently in progress. Screenshots, configuration notes, and implementation details will be added as each milestone is completed in the homelab.
