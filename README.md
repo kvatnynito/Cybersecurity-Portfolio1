@@ -1,3 +1,9 @@
+## Connect with Me
+
+- LinkedIn: [Kevin Nito](https://www.linkedin.com/in/kevin-nito)
+- GitHub: [github.com/kvatynito](https://github.com/kvatnynito)
+- Email: 
+
 # Cybersecurity Portfolio 1 (P1) — Homelab Build, Telemetry, and Case Files
 
 ## Overview
