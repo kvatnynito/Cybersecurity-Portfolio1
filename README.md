@@ -19,7 +19,7 @@ This portfolio uses sample hostnames and internal IP ranges. Public-facing detai
 **Why it’s included:** This is the foundation for the rest of the portfolio.
 - contains: architecture diagram, bridges, firewall rules, IP plan, and VM inventory
 
-Repo: https://github.com/kvantynito/P1-1-proxmox-segmentation-lab
+Repo: https://github.com/kvatnynito/P1-1-proxmox-segmentation-lab
 
 ---
 
@@ -28,7 +28,7 @@ Repo: https://github.com/kvantynito/P1-1-proxmox-segmentation-lab
 **What it is:** A lab project focused on collecting Windows telemetry and reviewing it across multiple SIEM platforms.  
 **Why it’s included:** It shows how I centralize logs and validate visibility across different tools.
 
-Repo: https://github.com/kvantynito/P1-2-wef-sysmon-to-wazuh-elastic-splunk
+Repo: https://github.com/kvatnynito/P1-2-wef-sysmon-to-wazuh-elastic-splunk
 
 ---
 
@@ -37,7 +37,7 @@ Repo: https://github.com/kvantynito/P1-2-wef-sysmon-to-wazuh-elastic-splunk
 **What it is:** A collection of investigation templates, detections, and case notes tied to activity generated in the lab.  
 **Why it’s included:** It shows how I document alerts, review evidence, and build repeatable investigation workflows.
 
-Repo: https://github.com/kvantynito/P1-3-incident-investigation-casefiles
+Repo: https://github.com/kvatnynito/P1-3-incident-investigation-casefiles
 
 ---
 
