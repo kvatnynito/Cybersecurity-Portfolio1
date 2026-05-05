@@ -7,7 +7,7 @@
 # Cybersecurity Portfolio 1 (P1) — Homelab Build, Telemetry, and Case Files
 
 ## Overview
-This portfolio shows the cybersecurity lab I have built and the work that comes from it. It includes:
+This is my working portfolio showing the cybersecurity lab I have built and the work that comes from it. It includes:
 - network segmentation with Proxmox and pfSense
 - centralized Windows logging with WEF and Sysmon
 - investigation-style case files and detection notes using Splunk, Elastic, and Wazuh
