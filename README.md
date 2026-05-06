@@ -53,4 +53,4 @@ Repo: https://github.com/kvatnynito/P1-3-incident-investigation-casefiles
 - **P1-3** uses that telemetry to document investigations, detections, and case findings.
 
 ## Current Status
-P1-1 is currently in progress. Screenshots, configuration notes, and implementation details will be added as each milestone is completed in the homelab.
+P1-1 is complete. P1-2 currently in progress. 
